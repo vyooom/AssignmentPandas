@@ -1,0 +1,12 @@
+INFO 2022-08-04 20:34:43,044 root The first task in MySQL
+INFO 2022-08-04 20:34:43,045 root Q1: Read the Fitbit Dataset automatically in MySQL.
+INFO 2022-08-04 20:34:43,045 root Using pip & conda I have installed the csv kit.
+INFO 2022-08-04 20:34:43,045 root The command used to create the table dat was:
+INFO 2022-08-04 20:34:43,045 root csvsql -i mysql Fitbit_Data.csv
+INFO 2022-08-04 20:34:43,045 root The output is shown in next line:
+INFO 2022-08-04 20:34:43,276 root []
+INFO 2022-08-04 20:34:43,277 root CREATE TABLE if not exists Assignment20220731.Fitbit_Data (`Id` DECIMAL(38, 0) NOT NULL,`ActivityDate` DATE NOT NULL,`TotalSteps` DECIMAL(38, 0) NOT NULL,`TotalDistance` DECIMAL(38, 9) NOT NULL,`TrackerDistance` DECIMAL(38, 9) NOT NULL,`LoggedActivitiesDistance` DECIMAL(38, 9) NOT NULL,`VeryActiveDistance` DECIMAL(38, 9) NOT NULL,`ModeratelyActiveDistance` DECIMAL(38, 9) NOT NULL, `LightActiveDistance` DECIMAL(38, 9) NOT NULL,`SedentaryActiveDistance` DECIMAL(38, 9) NOT NULL,`VeryActiveMinutes` DECIMAL(38, 0) NOT NULL,`FairlyActiveMinutes` DECIMAL(38, 0) NOT NULL,`LightlyActiveMinutes` DECIMAL(38, 0) NOT NULL,`SedentaryMinutes` DECIMAL(38, 0) NOT NULL,`Calories` DECIMAL(38, 0) NOT NULL)
+INFO 2022-08-04 20:34:43,279 root For loading the data directly we will use the command load data infile.
+INFO 2022-08-04 20:34:43,280 root LOAD DATA INFILE 'D:/iNeuron/dataBase/Fitbit.csv' INTO TABLE Assignment20220731.Fitbit_Data FIELDS TERMINATED BY ',' ENCLOSED BY '	' LINES TERMINATED BY '
+' IGNORE 1 ROWS
+INFO 2022-08-04 20:34:43,295 root The Fitbit_data was loaded into MySQL
