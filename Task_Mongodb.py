@@ -20,7 +20,7 @@ collection = database['fitbit']
 collection.insert_many(fitbit.to_dict('records'))
 logging.info('Fitbit data was inserted in Mongodb\Assignment20220731\fitbit')
 
-logging.info('Reading the Superstore data in Pycharm.')
+'''(logging.info('Reading the Superstore data in Pycharm.')
 
 order = pd.read_excel("D:/iNeuron/dataBase/Superstore_USA.xlsx", sheet_name = 'Orders')
 rtr = pd.read_excel("D:/iNeuron/dataBase/Superstore_USA.xlsx", sheet_name = 'Returns')
@@ -53,4 +53,4 @@ collection = database['Region&Manager']
 collection.insert_many(user.to_dict('records'))
 logging.info('Regions & Managers data was inserted in Mongodb\Assignment20220731\Region&Manager')
 
-logging.info('Data push to Mongo db completed.')
+logging.info('Data push to Mongo db completed.'))'''

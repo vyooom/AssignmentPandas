@@ -1,0 +1,6 @@
+INFO 2022-08-05 08:11:18,818 numexpr.utils NumExpr defaulting to 8 threads.
+INFO 2022-08-05 08:11:19,410 root Reading the file: Fitbit_Data.csv
+INFO 2022-08-05 08:11:19,426 root Converting fitbit data to dict format and then inserting it in Mongodb.
+INFO 2022-08-05 08:16:34,837 root Reading the file: Fitbit_Data.csv
+INFO 2022-08-05 08:16:34,853 root Converting fitbit data to dict format and then inserting it in Mongodb.
+INFO 2022-08-05 08:16:36,033 root Fitbit data was inserted in Mongodb\Assignment20220731itbit
